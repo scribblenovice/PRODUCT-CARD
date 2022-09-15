@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  padding: 10% 0;
+}
+.enclose {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 15px;
+  background: white;
+}
+.enclose img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.enclose-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+.enclose-info h5 {
+  font-family: "Montserrat";
+  letter-spacing: 5px;
+}
+p {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: hsl(32, 8%, 67%);
+}
+h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+}
+.price h5 {
+  letter-spacing: 0;
+}
+.btn {
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: hsl(158, 36%, 37%);
+}
+.price h2, .price h5{
+  
+    font-family: "Fraunces", serif;
+
+}
+.space{
+    margin-right: 10px;
+}
